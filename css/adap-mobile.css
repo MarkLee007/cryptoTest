@@ -1,0 +1,196 @@
+@media screen and (max-width: 1365px) {
+	.lists li a {
+		font-size: 20px;
+	}
+
+	.logo img {
+		width: 150px;
+	}
+}
+
+
+@media screen and (max-width: 1300px) {
+	.header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.lists {
+		margin-top: 30px;
+	}
+	.search-button {
+		right: 480px;
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1360px) {
+	.stars img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.input-sblock:focus - .lists {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.stars img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.l-comments-cards {
+		display: grid;
+		justify-content: center;
+		grid-row-gap: 1rem;
+	}
+
+	.l-comments-card:not(:first-child) {
+		margin-left: 0px;
+	}
+
+	.b-cards {
+		display: grid;
+		justify-content: center;
+		grid-row-gap: 1rem;
+
+	}
+
+	.b-card:not(:first-child) {
+		margin-left: 0px;
+	}
+
+	.cards-block {
+		display: grid;
+		justify-content: center;
+		grid-row-gap: 1rem;
+	}
+
+	.card-company {
+		width: 100%;
+	}
+
+	.p-reviews {
+		flex-direction: column;
+	}
+
+	.com-blocks:not(:first-child) {
+		margin-top: 2rem;
+	}
+
+}
+
+@media screen and (max-width: 1150px) {
+	.l-man {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+
+	.h1style-1 {
+		font-size: 60px;
+		line-height: 68px;
+	}
+
+	.pstyle-1  {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+
+
+
+	.scompany-block,
+	.scompany-input {
+		width: 100%;
+	}
+
+
+
+
+	.footer_top {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 20px;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.footer_bottom {
+		width: 100%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+	.lists {
+		flex-direction: column;
+	}
+
+	.lists li:not(:first-child) {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+
+	.scompany-block {
+		width: 100%;
+		flex-direction: column;
+		position: relative;
+	}
+	.scompany-input {
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	
+	
+	.btn-search {
+		position: relative;
+		height: 60px;
+		border-radius: 20px;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		width: 100%;
+		left: 0;
+	}
+
+
+
+	.footer_top ul {
+		flex-direction: column;
+	}
+
+	.footer_top ul li:not(:first-child) {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.container {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	.h1style-1 {
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	.pstyle-1  {
+		font-size: 19px;
+		line-height: 29px;
+	}
+}
